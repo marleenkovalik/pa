@@ -1,6 +1,12 @@
-vastus = prompt ("2+2*3");
+// Tsüklid
 
-if (vastus == 8) {;
-  alert("Õige!")
-} else {
-  alert("Vale")};
+// for tsükkel
+// üldtsükkel
+let arv;
+for(arv = 1; arv <= 10; arv++){
+    if(arv < 10){
+        console.log('arv =  ' + arv);
+    } else {
+        console.log('arv = ' + arv); 
+    } 
+}
